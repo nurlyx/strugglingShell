@@ -1,7 +1,7 @@
 import { Variable, bind } from "astal"
 
 function MyButton(): JSX.Element {
-  return <button onClicked="hyprctl dispatch exec asztal">
+  return <button onClicked="hyprctl keyword general:layout master">
     <label label="Launch Kitty" />
   </button>
 }
