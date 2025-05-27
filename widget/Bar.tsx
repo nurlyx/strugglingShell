@@ -1,3 +1,5 @@
+import { Variable, bind } from "astal"
+
 function MyButton(): JSX.Element {
   return <button onClicked="hyprctl dispatch exec asztal">
     <label label="Launch Kitty" />
